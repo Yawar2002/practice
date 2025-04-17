@@ -4,5 +4,15 @@
     "@tailwindcss/vite": "^4.1.4",
     "postcss": "^8.5.3",
     "tailwindcss": "^4.1.4"
-  }
+  },
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
