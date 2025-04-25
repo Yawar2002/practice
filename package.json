@@ -1,19 +1,22 @@
 {
-  "dependencies": {
-    "@tailwindcss/postcss": "^4.1.4",
-    "@tailwindcss/vite": "^4.1.4",
-    "postcss": "^8.5.3",
-    "tailwindcss": "^4.1.4"
-  },
-  "name": "practice",
+  "name": "my-tailwind-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "devDependencies": {},
+  
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+  "start": "npm run dev"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.1.4",
+    "postcss": "^8.5.3",
+    "autoprefixer": "^10.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   },
   "author": "",
-  "license": "ISC",
-  "keywords": []
+  "license": "ISC"
 }
